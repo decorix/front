@@ -5,17 +5,20 @@
 <head>
     <title>First Project on JS</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="Menu">
-        <button>Главное</button>
-        <button>Каталог</button>
-        <button>Доставка</button>
-        <button>Оплата</button>
-        <button>Отзывы</button>
-    </div>
+    <header class="header">
+
+        <a class="main-nav" href="https://ya.ru/">Главное</a>
+        <a class="aboutMe-nav" href="https://ya.ru/">Обо мне</a>
+        <a class="contacts-nav" href="https://ya.ru/">Контакты</a>
+
+    </header>
     <div class="Resume">
         <img class="Photo" src="img/ФОТО.jpg">
         <div class="text">
@@ -33,6 +36,44 @@
             <p></p>
         </div>
     </div>
+    <div class="div-table">
+        <table class="table">
+            <tr>
+                <th>Наличие шапки</th>
+                <th>Наличие футера</th>
+                <th>Наличие фотографии</th>
+                <th>Наличие таблицы</th>
+                <th>Наличие шрифта с Google Fonts</th>
+            </tr>
+            <!--ряд с ячейками заголовков-->
+            <tr>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <!--ряд с ячейками тела таблицы-->
+        </table>
+    </div>
+    <footer class="footer-nav">
+        <div class="contacts">
+            <p>Contacts: <br> +79212360692
+                <br> polevg2015@yandex.ru
+            </p>
+        </div>
+        <div class="social-network">
+            <p>Social network:
+                <ul class="network">
+                    <li><a class="vk-network" href="https://vk.com/jpull1">Vk</a></li>
+                    <li><a class="github-network" href="https://github.com/decorix">GitHub</a></li>
+                </ul>
+            </p>
+        </div>
+        <div class="copyright">
+            <p>(С) 2022 Поляков Е.А.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
